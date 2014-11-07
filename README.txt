@@ -1,40 +1,13 @@
-check_email
-=====================================================
-
-   Example.Validation of emails existing in file. One email one string. Use Moouse and test for Test::Class.
-
-====================================================
-
-   I had used next modules.
-
-----------------------------------------------------
-    use Moose; 
-    use MooseX::Types::Path::Class qw( File );
-    use MooseX::Privacy;
-    use Net::DNS;
-    use URI::UTF8::Punycode  qw( puny_enc );
-    use Text::Trim qw( trim );
-----------------------------------------------------
-Example result. 
-
-$ ./test_email.pl email_valid.txt 
-
-xn--d1acpjx3f.xn--p1ai 	 1
-rambler.ru 	 2
-mail.ru 	 2
-INVALID 9
-
-
-*****************************************************
-  Comand Line Arguments
+----------------------
+Comand Line Arguments
 ----------------------
    Example: ./test_email.pl email_valid.txt
  
    You cant start ./test_email.pl YOUFILENAME
  
  
--------------------------------
-  Comand Line Argument for test 
+------------------------------- 
+ Comand Line Argument for test 
 -------------------------------
  
    Example: prove -lv t/run.t :: --tvar=email_valid.txt
@@ -59,5 +32,6 @@ INVALID 9
     B. Methods CheckEmail.pm     
        1. validate_mx_domain_name - validate email and add data for hash( invalid_domain, valid_domain ).
        2. show_result - print validation result for STDOUT.
-
-
+       
+       
+       

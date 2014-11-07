@@ -3,7 +3,7 @@ Comand Line Arguments
 ----------------------
    Example: ./test_email.pl email_valid.txt
  
-   You cant start ./test_email.pl YOUFILENAME
+   You can start ./test_email.pl YOUFILENAME
  
  
 ------------------------------- 

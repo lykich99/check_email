@@ -1,11 +1,11 @@
 check_email
 =====================================================
 
-   Example.Validation of emails existing in file. One email one string. Use Moouse and test for Test::Class.
+   Example.Validation of emails existing in file. One email one string. Use Moose and test for Test::Class.
 
 ====================================================
 
-   I had used next modules.
+   I used next modules.
 
 ----------------------------------------------------
     use Moose; 
@@ -30,7 +30,7 @@ INVALID 9<br>
 ----------------------
    Example: ./test_email.pl email_valid.txt
  
-   You cant start ./test_email.pl YOUFILENAME
+   You can start ./test_email.pl YOUFILENAME
  
  
 -------------------------------

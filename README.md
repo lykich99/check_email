@@ -19,10 +19,10 @@ Example result.
 
 $ ./test_email.pl email_valid.txt 
 
-xn--d1acpjx3f.xn--p1ai 	 1
-rambler.ru 	 2
-mail.ru 	 2
-INVALID 9
+xn--d1acpjx3f.xn--p1ai 	 1<br>
+rambler.ru 	 2<br>
+mail.ru 	 2<br>
+INVALID 9<br>
 
 
 *****************************************************
